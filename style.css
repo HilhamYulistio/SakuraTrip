@@ -1,0 +1,159 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+
+body {
+    background-color: #fdf7f1;
+}
+
+.navbar {
+    background-color: #ffffff;
+    border-bottom: 3px solid #8B4513;
+}
+
+.navbar-brand {
+    font-size: 2rem;
+    color: #8B4513;
+    font-family: 'Sawarabi Mincho', serif;
+}
+
+.navbar-brand:hover {
+    color: #6B3E1E;
+}
+
+.nav-link {
+    margin-right: 20px;
+    margin-left: 20px;
+    color: #8B4513;
+    text-transform: uppercase;
+}
+
+.nav-link:hover {
+    color: #6B3E1E;
+}
+
+.search {
+    height: 40px;
+    width: 80%;
+    border-radius: 20px;
+    outline: none;
+    margin-right: -40px;
+    border: 2px solid #8B4513;
+}
+
+.sbtn {
+    height: 40px;
+    width: 40%;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    background-color: #8B4513;
+    color: white;
+    font-weight: 700;
+}
+
+.main {
+    background: url(./img/sakura.jpg) no-repeat center center;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+
+.main h1 {
+    font-size: 5rem;
+    font-weight: 700;
+    color: #ffffff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+    color: #8B4513;
+}
+
+.btn1 {
+    height: 45px;
+    width: 35%;
+    border: none;
+    outline: none;
+    background-color: #8B4513;
+    color: white;
+    font-weight: 700;
+    border-radius: 30px;
+}
+
+.card {
+    background-color: #f5e5d8;
+    border: 1px solid #8B4513;
+}
+
+
+.card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #8B4513;
+}
+
+.card-text {
+    font-size: 1rem;
+    color: #555;
+}
+
+
+.img-wisata {
+    width: 600px;
+    max-height: 100px;
+    object-fit: cover;
+}
+
+.img-galeri {
+    width: 300px;
+    height: 150px;
+}
+
+footer {
+    background-color: #8B4513;
+    color: #ffffff;
+    padding: 40px 0;
+    text-align: center;
+}
+
+footer h3 {
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+
+footer .social-icons a {
+    color: #ffffff;
+    margin: 0 10px;
+    font-size: 24px;
+}
+
+.mobile-mode .navbar {
+    background-color: #003366;
+    color: #ffffff;
+}
+
+.mobile-mode .navbar-brand {
+    color: #ffffff;
+}
+
+.mobile-mode .main h1 {
+    font-size: 3rem;
+}
+
+.mobile-mode .nav-link {
+    color: #ffffff;
+}
+
+.mobile-mode .card {
+    background-color: #0066cc;
+    color: #ffffff;
+}
+
+.mobile-mode footer {
+    background-color: #003366;
+    color: #ffffff;
+}
